@@ -59,9 +59,7 @@ def gemini_prompt(subject_email, body_email, testing=False):
 
     format_list = "emotions_list = [{''emotion':'emotion_name','percentage_of_appear':'percentage%'}]"
 
-    prompt = f"""Your task is analyze this email, subject:{subject_email}, body: {body_email}, retrieving what emotions are in the email,
-                return list of emotions explaining each one, speared by new lines, after that, what recommendations you give a that person and finally write in
-                a list of emotions in array format like {format_list} , ALWAYS I WANT TO THE THE ARRAY IN A NEW LINE"""
+    prompt = f"""Your task is to analyze this email. The subject is: {subject_email}. The body is: {body_email}. Retrieve the emotions present in the email and return a list of emotions, explaining each one in short description, new line for separation. After that, provide recommendations for the person. Finally, write a list of emotions in array format like {format_list}, always ensuring the array is on a new line."""
 
     response = model.generate_content(prompt)
 
