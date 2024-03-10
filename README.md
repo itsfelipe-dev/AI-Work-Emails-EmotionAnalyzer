@@ -35,6 +35,15 @@ EmotionAnalyzer is a project to leverages Python and Google AI to analyze the se
 - **Sentiment Analysis trend:** Utilizes charts to present the sentiment's predominance.
 - **Actionable Insights:** Provides advice and recommendations based on the emotional context of the emails.
 
+## Installation
+
+Open a terminal and run:
+
+```bash
+$ pip install -r requirements
+$ streamlit app.py
+```
+
 ## Usage
 
 To analyze work emails and retrieve emotional insights, follow these steps:
@@ -44,6 +53,14 @@ To analyze work emails and retrieve emotional insights, follow these steps:
 3. Review the generated emotional insights and recommendations.
 4. Respond to emails empathetically based on the analysis results.
 
+## Demo
+  <img
+    align="center"
+    alt="AI-Work-Emails-EmotionAnalyzer"
+    src="https://raw.githubusercontent.com/itsfelipe-dev/AI-Work-Emails-EmotionAnalyzer/main/docs/assets/demo.gif"
+    style="width:100%;"
+  />
+  
 ## Contribution Guidelines
 
 Contributions to EmotionAnalyzer are welcome! Whether you're interested in adding new features, fixing bugs, or improving documentation, please follow these guidelines:
