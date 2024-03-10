@@ -228,9 +228,9 @@ def ask_prompt():
         if len(email_subject) > 10 and len(email_body) > 10:
             try:
                 response = gemini_prompt(email_subject, email_body, False)
-                st.success("Successful analyzed!.", icon="✅")
+                st.success("Successfully analyzed!.", icon="✅")
                 parser_response_text, emotions_list = parse_response(response)
-                st.markdown("### **Here is a emotions identified:**")
+                st.markdown("### **Here are the emotions identified:**")
                 bar_chart_emotions(emotions_list)
                 emotions_list_display(emotions_list)
                 st.markdown("### **Result** ⌨️ :")
