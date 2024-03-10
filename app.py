@@ -9,7 +9,7 @@ from random import choice
 from google.generativeai import configure, GenerativeModel
 from streamlit_extras.colored_header import colored_header
 from streamlit_extras.tags import tagger_component
-from st_pages import Page, hide_pages, show_pages
+from st_pages import Page, show_pages
 from streamlit_extras.mention import mention
 
 load_dotenv(".env")
@@ -59,7 +59,10 @@ def gemini_prompt(subject_email, body_email, testing=False):
 
     format_list = "emotions_list = [{''emotion':'emotion_name','percentage_of_appear':'percentage%'}]"
 
-    prompt = f"""Your task is to analyze this email. The subject is: {subject_email}. The body is: {body_email}. Retrieve the emotions present in the email and return a list of emotions, explaining each one in short description, new line for separation. After that, provide recommendations for the person. Finally, write a list of emotions in array format like {format_list}, always ensuring the array is on a new line."""
+    prompt = f"""Your task is to analyze this email. The subject is: {subject_email}. The body is: {body_email}. 
+                Retrieve the emotions present in the email and return a list of emotions, explaining each one in short description,
+                new line for separation. After that, provide recommendations for the person. Finally, write a list of emotions in array format like {format_list}, 
+                always ensuring the array is on a new line."""
 
     response = model.generate_content(prompt)
 
@@ -236,7 +239,7 @@ def ask_prompt():
                 st.markdown("### **Result** ⌨️ :")
                 st.write_stream(stream_data(parser_response_text))
             except Exception as e:
-                st.error("An error ocurred, retry.", icon="🤖")
+                st.error(f"An error ocurred {e}, retry.", icon="🤖")
         else:
             st.error("Body and Subject must be greater than 10 characters.", icon="🤖")
 
