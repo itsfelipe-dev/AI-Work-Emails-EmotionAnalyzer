@@ -30,12 +30,12 @@
 
 ## 🖖 Intro
 
-EmotionAnalyzer is a project aimed at leveraging Python and Google AI to analyze the sentiments expressed in work emails. By detecting emotions and providing actionable insights, this tool enhances communication efficiency and fosters a positive work culture.
+EmotionAnalyzer is a project to leverages Python and Google AI to analyze the sentiments expressed in work emails. This tool enhances communication efficiency and fosters a positive work culture by detecting emotions and providing actionable insights.
 
 ## Features
 
 - **Sentiment Analysis:** Utilizes AI algorithms to detect emotions such as appreciation, frustration, urgency, etc.
-- **Sentiment Analysis trend:** Utilizes charts to present the sentiments predominance .
+- **Sentiment Analysis trend:** Utilizes charts to present the sentiment's predominance.
 - **Actionable Insights:** Provides advice and recommendations based on the emotional context of the emails.
 
 ## Usage
