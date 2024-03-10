@@ -14,17 +14,14 @@
   </a>
 </h1>
 
-
-
 </p>
+
 <p align="center">
-  <a href="https://goreportcard.com/report/github.com/itsfelipe-dev/AI-Work-Emails-EmotionAnalyzer">
-    <img alt="go report" src="https://goreportcard.com/badge/github.com/itsfelipe-dev/AI-Work-Emails-EmotionAnalyzer" />
-  </a>
+  <a href="https://app.codacy.com/gh/itsfelipe-dev/AI-Work-Emails-EmotionAnalyzer/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://app.codacy.com/project/badge/Grade/688a61c64a52458b816f2fc1a1e7c04f"/></a>
   <a href="https://github.com/itsfelipe-dev/AI-Work-Emails-EmotionAnalyzer" target="_blank">
     <img alt="Github Stars" src="https://img.shields.io/github/stars/itsfelipe-dev/AI-Work-Emails-EmotionAnalyzer?logo=github">
   </a>
-</p> 
+</p>
 
 <br />
 
