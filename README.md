@@ -1,5 +1,7 @@
 # EmotionAnalyzer: Analyzing Work Email Sentiments 🚀
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/62c496620c4c4c0eaef1d1603a8d6882)](https://app.codacy.com/gh/itsfelipe-dev/AI-Work-Emails-EmotionAnalyzer?utm_source=github.com&utm_medium=referral&utm_content=itsfelipe-dev/AI-Work-Emails-EmotionAnalyzer&utm_campaign=Badge_Grade)
+
 <h1 align="center">
   <a
     target="_blank"
