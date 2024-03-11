@@ -91,7 +91,7 @@ def intro():
         mention(
             label="Github",
             icon="github",
-            url="https://extras.streamlitapp.com",
+            url="https://github.com/itsfelipe-dev/AI-Work-Emails-EmotionAnalyzer",
         )
     st.title("AI EmotionAnalyzer 🚀")
 
