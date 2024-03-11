@@ -12,3 +12,4 @@ google-generativeai==0.4.0
 googleapis-common-protos==1.62.0
 charset-normalizer==3.3.2
 validators==0.22.0
+st-pages==0.4.5
